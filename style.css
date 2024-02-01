@@ -1,0 +1,79 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&family=Nanum+Gothic&family=Nanum+Myeongjo:wght@700&family=Russo+One&family=Spectral:wght@300&display=swap');   
+
+@font-face {
+    font-family: 'DSDIGIT';
+    src: url('DS-DIGIT.TTF') format('truetype');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('DS-DIGI.TTF') format('truetype');
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'DSDIGIT', sans-serif;
+    background-color: black;
+    color: yellow;
+
+}
+
+
+#areaContagem {
+    text-align: center;
+    font-family: 'font2', sans-serif;
+    letter-spacing: 10px;
+
+}
+
+#contadorAAAA {
+    font-size: 70px;
+    margin-top: 20px;
+    font-family: 'DSDIGIT', sans-serif;
+    line-height: 6vw;
+    letter-spacing: 6px;
+
+}
+sub{
+    font-size: 20px;
+}
+
+#rodape{
+    position: absolute;
+    bottom: 10px;
+    font-family: 'font2', sans-serif;
+
+}
+@media screen and (max-width:900px) {
+    body{
+        display: inline-block;
+        margin: 1vw;
+    }
+    #contadorAAAA{
+        line-height: 4vw;
+        letter-spacing: 2px;
+        font-size: 35px;
+    }
+    sub{
+        font-size: 15px;
+    }
+    #areaContagem {
+        margin: 30vh auto;
+        font-size: 15px;
+
+
+    }
+    #titulo{
+        margin-bottom: 5vh;
+        text-align: justify;
+        text-align: center;
+
+    }
+}
