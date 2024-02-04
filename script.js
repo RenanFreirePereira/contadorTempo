@@ -24,7 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
             }
             countdownElement.innerHTML = `${dias} <sub>Dias</sub> : ${hora} : ${minutos} : ${segundos}`;
         } else {
-            countdownElement.innerHTML = 'ACABOOOOOOOU! TEM AULA!';
+           window.document.getElementById("mensagemFinal").hidden = false
+           window.document.getElementById("areaContagem").hidden = true
+
         }
     }
 

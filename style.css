@@ -13,6 +13,9 @@
 }
 
 
+.mensagemFinal{
+    font-size: 2vw;
+} 
 body{
     display: flex;
     align-items: center;
@@ -31,6 +34,9 @@ body{
     font-family: 'font2', sans-serif;
     letter-spacing: 10px;
 
+}
+.imagem{
+    height: 10vw;
 }
 
 #contadorAAAA {
@@ -76,4 +82,16 @@ sub{
         text-align: center;
 
     }
+    #mensagemFinal{
+        font-size: 14vw;
+        margin-left: 5vw;
+    }
+    .imagem{
+        height: 20vw;
+    }
+    .mensagemFinal{
+        font-size: 15vw;
+    } 
+
+   
 }
