@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function updateCountdown() {
         const DataAtual = new Date();
-        const DataFinal = new Date('February 4, 2024 00:10:00');
+        const DataFinal = new Date('February 5, 2024 07:05:00');
         const timeDifference = DataFinal - DataAtual;
         if (timeDifference > 0) {
             let dias = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
