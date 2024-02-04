@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const countdownElement = document.getElementById('contadorAAAA');
 
     function updateCountdown() {
-        const currentDate = new Date();
-        const targetDate = new Date('February 5, 2024 07:10:00');
-        const timeDifference = targetDate - currentDate;
+        const DataAtual = new Date();
+        const DataFinal = new Date('February 4, 2024 00:10:00');
+        const timeDifference = DataFinal - DataAtual;
         if (timeDifference > 0) {
             let dias = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
             let hora = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
